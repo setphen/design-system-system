@@ -1,0 +1,23 @@
+{{ range sort (sort .pages "Title") "Params.weight" }}
+<li>
+  {{ $class := "" }}
+  {{ if hasPrefix $.context.RelPermalink .RelPermalink }}
+    {{ $class = "active" }}
+  {{ end }}
+    <a class="nav-link {{ $class }}" href="{{ .RelPermalink }}">
+      <span>
+        {{ .Title }}
+      </span>
+
+      {{ if eq .Kind "section" }}
+      <span class="arrow">&#x2935;</span>
+      {{ end }}
+    </a>
+  {{ if eq .Kind "section" }}
+    <ul class="subnav {{ $class }}">
+      {{ $dict := dict "pages" .Pages "context" $.context }}
+      {{ partial "nav-list" $dict }}
+    </ul>
+  {{ end }}
+</li>
+{{ end }}

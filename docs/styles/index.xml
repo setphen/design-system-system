@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Styles on Design System System</title>
+    <link>https://setphen.github.io/design-system-system/styles/</link>
+    <description>Recent content in Styles on Design System System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://setphen.github.io/design-system-system/styles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Color</title>
+      <link>https://setphen.github.io/design-system-system/styles/color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/styles/color/</guid>
+      <description>This table lists all available colors. The table is rendered with the swatches shortcode. The shortcode takes one argument, the filename of a json file in the data/ directory.
+  Name Hex Swatch   white #FFFFFF    lightgray #DEDCDC    gray #B2ACAC    darkgray #787373    black #322B2B    blue #244BD7    darkblue #233574    orange #CF7A16    darkorange #934417    burntred #5F1C07    </description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://setphen.github.io/design-system-system/styles/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/styles/typography/</guid>
+      <description>Typography is a cornerstone of visual design. This is where you can document how to use typography effectively in your designs. By default, Design System System uses system fonts, which means no fonts are included (or downloaded from a CDN) in the project. You can extend the styles to include your own fonts here.
+body { font-family: -apple-system,system-ui,BlinkMacSystemFont,&amp;quot;Segoe UI&amp;quot;,Roboto,&amp;quot;Helvetica Neue&amp;quot;,Arial,sans-serif; } Consider adding information here about your font license, too.</description>
+    </item>
+    
+  </channel>
+</rss>

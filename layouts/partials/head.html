@@ -1,0 +1,17 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  {{ hugo.Generator }}
+
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+
+  {{ $cssOpts := (dict "targetPath" "css/main.css" "enableSourceMap" true "outputStyle" "compressed") }}
+  {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "styles.main.css" . | toCSS $cssOpts }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+
+  <title>{{ title .Title }} | {{ .Site.Title }}</title>
+</head>
+

@@ -1,0 +1,9 @@
+<nav id="menu">
+  <ul>
+    <li class="no-top-margin">
+      <a class="nav-link home-link" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </li>
+    {{ $dict := dict "pages" ((.GetPage "/").Pages) "context" $ }}
+    {{ partial "nav-list" $dict }}
+  </ul>
+</nav>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guidelines on Design System System</title>
+    <link>https://setphen.github.io/design-system-system/guidelines/</link>
+    <description>Recent content in Guidelines on Design System System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://setphen.github.io/design-system-system/guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessibility</title>
+      <link>https://setphen.github.io/design-system-system/guidelines/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/guidelines/accessibility/</guid>
+      <description>Document your accessibility guidelines here.</description>
+    </item>
+    
+    <item>
+      <title>Code Conventions</title>
+      <link>https://setphen.github.io/design-system-system/guidelines/code-conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/guidelines/code-conventions/</guid>
+      <description>This is a good place to describe practices for contributing code that is clean and consistent with the rest of the codebase.
+Does your team follow a naming convention for writing CSS? Do you follow an established standard, like B.E.M.? Make it known here! You can use backticks to include example, like this: ``` code ```
+.a-class-name { user-select: none; } </description>
+    </item>
+    
+  </channel>
+</rss>

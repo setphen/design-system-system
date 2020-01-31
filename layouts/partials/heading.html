@@ -1,0 +1,7 @@
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = .Site.Title -}}
+{{- end -}}
+<h1 id="{{ $title }}">
+  {{ $title }}
+</h1>

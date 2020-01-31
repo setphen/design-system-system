@@ -1,0 +1,7 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+{{ $r := .resource | resources.ExecuteAsTemplate (print .resource.Name ".html") .context }}
+<iframe height=0 src="{{ $r.RelPermalink }}" frameborder="0" onload="resizeIframe(this)"></iframe>

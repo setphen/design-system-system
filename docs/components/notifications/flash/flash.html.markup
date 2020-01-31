@@ -1,0 +1,4 @@
+<!-- component html -->
+<span class="flash">
+  This is a flash message. It appears at the top of the screen.
+</span>

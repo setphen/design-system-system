@@ -1,0 +1,23 @@
+{{ with sort (sort .Pages "Title") "Params.weight" }}
+<h3>Table of Contents</h3>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  {{ range . }}
+  <tr>
+    <td style="white-space: nowrap;">
+      <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+    </td>
+    <td>
+      {{ with .Params.desc }}
+        {{ . }}
+      {{ else }}
+        No description
+      {{ end }}
+    </td>
+  </tr>
+  {{ end }}
+</table>
+{{ end }}

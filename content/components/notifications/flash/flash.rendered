@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/my-project-styles.css">
+  </head>
+  <body>
+    <div>
+    <!-- begin component -->
+      <span class="flash">
+        This is a flash message. It appears at the top of the screen.
+      </span>
+    <!-- end component -->
+    </div>
+  </body>
+</html>

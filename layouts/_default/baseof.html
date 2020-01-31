@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+  {{ partial "head" . }}
+
+  {{- $class := slice "" }}
+  {{- with .Type }} {{ $class = append $class (slice .) }} {{ end }}
+  {{- with .Kind }} {{ $class = append $class (slice .) }} {{ end }}
+  <body class="{{ delimit $class " " ""}}">
+
+    <a href="#menu" class="menu-button">Menu</a>
+
+    <div class="site-layout">
+
+      {{ partial "nav" . }}
+
+      <main>
+
+        {{ block "main" . }}{{ end }}
+
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{{ with .Page.Resources }}
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+    {{ range . }}
+    <tr>
+      <td>
+        <a href="{{ .RelPermalink }}">{{ .Name }}</a>
+      </td>
+      <td>{{ .Params.desc }}</td>
+    </tr>
+    {{ end }}
+</table>
+{{ end }}

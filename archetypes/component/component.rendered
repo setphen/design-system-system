@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/my-project-styles.css">
+  </head>
+  <body>
+    <div>
+    <!-- begin component -->
+
+    <!-- end component -->
+    </div>
+  </body>
+</html>

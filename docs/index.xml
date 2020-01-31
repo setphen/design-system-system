@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Design System System</title>
+    <link>https://setphen.github.io/design-system-system/</link>
+    <description>Recent content in Home on Design System System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://setphen.github.io/design-system-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://setphen.github.io/design-system-system/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/getting-started/</guid>
+      <description>You should read the Content Management section of the Hugo documentation in order to understand the structure of the content directory. This is where all the site content lives.</description>
+    </item>
+    
+    <item>
+      <title>Downloads</title>
+      <link>https://setphen.github.io/design-system-system/downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/downloads/</guid>
+      <description>Here are the design files available for download:
+  Name Description    Brand Resource Files  A collection of resources including logos and fonts    Design Archive  Design files archived on 2020-02-13   </description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://setphen.github.io/design-system-system/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/support/</guid>
+      <description>Document any support channels for your design system here.</description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>https://setphen.github.io/design-system-system/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/contribute/</guid>
+      <description>If you&#39;re interested in contributing, PRs are welcome!
+Did you find a bug, or have a feature request? Create an issue.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility</title>
+      <link>https://setphen.github.io/design-system-system/guidelines/accessibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/guidelines/accessibility/</guid>
+      <description>Document your accessibility guidelines here.</description>
+    </item>
+    
+    <item>
+      <title>Badge</title>
+      <link>https://setphen.github.io/design-system-system/components/notifications/badge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/components/notifications/badge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Button</title>
+      <link>https://setphen.github.io/design-system-system/components/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/components/button/</guid>
+      <description>This is what a basic component page looks like. Each variant (described in the page&#39;s front matter) is rendered here. Check out the How it Works section of the README for a longer explanation of components.</description>
+    </item>
+    
+    <item>
+      <title>Code Conventions</title>
+      <link>https://setphen.github.io/design-system-system/guidelines/code-conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/guidelines/code-conventions/</guid>
+      <description>This is a good place to describe practices for contributing code that is clean and consistent with the rest of the codebase.
+Does your team follow a naming convention for writing CSS? Do you follow an established standard, like B.E.M.? Make it known here! You can use backticks to include example, like this: ``` code ```
+.a-class-name { user-select: none; } </description>
+    </item>
+    
+    <item>
+      <title>Color</title>
+      <link>https://setphen.github.io/design-system-system/styles/color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/styles/color/</guid>
+      <description>This table lists all available colors. The table is rendered with the swatches shortcode. The shortcode takes one argument, the filename of a json file in the data/ directory.
+  Name Hex Swatch   white #FFFFFF    lightgray #DEDCDC    gray #B2ACAC    darkgray #787373    black #322B2B    blue #244BD7    darkblue #233574    orange #CF7A16    darkorange #934417    burntred #5F1C07    </description>
+    </item>
+    
+    <item>
+      <title>Flash Message</title>
+      <link>https://setphen.github.io/design-system-system/components/notifications/flash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/components/notifications/flash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://setphen.github.io/design-system-system/styles/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://setphen.github.io/design-system-system/styles/typography/</guid>
+      <description>Typography is a cornerstone of visual design. This is where you can document how to use typography effectively in your designs. By default, Design System System uses system fonts, which means no fonts are included (or downloaded from a CDN) in the project. You can extend the styles to include your own fonts here.
+body { font-family: -apple-system,system-ui,BlinkMacSystemFont,&amp;quot;Segoe UI&amp;quot;,Roboto,&amp;quot;Helvetica Neue&amp;quot;,Arial,sans-serif; } Consider adding information here about your font license, too.</description>
+    </item>
+    
+  </channel>
+</rss>

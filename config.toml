@@ -1,0 +1,7 @@
+baseURL = "https://setphen.github.io/design-system-system/"
+title = "Design System System"
+languageCode = "en-us"
+publishDir = "docs"
+
+[taxonomies]
+  # intentionally blank

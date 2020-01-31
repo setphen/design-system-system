@@ -1,0 +1,12 @@
+[
+  { "name": "white",      "value": "#FFFFFF" },
+  { "name": "lightgray",  "value": "#DEDCDC" },
+  { "name": "gray",       "value": "#B2ACAC" },
+  { "name": "darkgray",   "value": "#787373" },
+  { "name": "black",      "value": "#322B2B" },
+  { "name": "blue",       "value": "#244BD7" },
+  { "name": "darkblue",   "value": "#233574" },
+  { "name": "orange",     "value": "#CF7A16" },
+  { "name": "darkorange", "value": "#934417" },
+  { "name": "burntred",   "value": "#5F1C07" }
+]

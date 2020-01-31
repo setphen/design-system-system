@@ -1,0 +1,46 @@
+{{- define "main" -}}
+
+<div class="container">
+  <h1 id="{{ .Title }}">
+   {{ .Title }}
+  </h1>
+
+  {{ .Content }}
+
+  {{ range .Params.variants }}
+  <section>
+    <h2> {{ .name }} </h2>
+    <p>{{ .desc | $.Page.RenderString }}</p>
+
+    {{ with .classes }}
+      <span>Classes:</span>
+      {{ range . }}
+      <code class="class-name">{{ . }}</code>
+      {{ end }}
+    {{ end }}
+
+    {{ with $.Page.Resources.GetMatch (printf "%s.rendered" .src) }}
+      <h3>
+        Example
+      </h3>
+
+      {{ partial "iframe" (dict "resource" . "context" $ ) }}
+    {{ end }}
+
+    {{ with $.Page.Resources.Match (printf "%s.*.markup" .src) }}
+      <h3>
+        Code
+      </h3>
+      {{ range . }}
+        <div class="">
+          {{ $lang := index (split .Name ".") 1 }}
+          <h4>{{ $lang }}</h4>
+          {{ partial "code-snippet" . }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
+</div>
+
+{{- end -}}

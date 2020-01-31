@@ -1,0 +1,17 @@
+{{ $colorList := .Get 0 }}
+{{ with (index .Site.Data $colorList) }}
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Hex</th>
+      <th>Swatch</th>
+    </tr>
+    {{ range . }}
+      <tr>
+        <td>{{ .name }}</td>
+        <td><code>{{ .value }}</code></td>
+        <td style="background-color: {{ .value }}; width: 128px; height: 32px;"></td>
+      </tr>
+    {{ end }}
+  </table>
+{{ end }}

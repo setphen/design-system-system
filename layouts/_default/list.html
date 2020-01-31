@@ -1,0 +1,13 @@
+{{- define "main" -}}
+
+<div class="container">
+  {{ partial "heading" . }}
+
+  {{ .Content }}
+
+  {{ if (default true .Params.showTOC) }}
+    {{ partial "table-of-contents" . }}
+  {{ end }}
+</div>
+
+{{- end -}}

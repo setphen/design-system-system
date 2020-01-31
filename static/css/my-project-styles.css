@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+button,
+.button {
+  appearance: none;
+  background-color: #244BD7;
+  border-radius: 4px;
+  border: 0;
+  font-size: inherit;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  padding: 1em 2em;
+}
+
+button:hover,
+.button:hover {
+  background-color: #233574;
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+}
+
+.badge {
+  background-color: #DEDCDC;
+  border: 1px solid #787373;
+  border-radius: 4px;
+  color: #322B2B;
+  font-size: 0.8em;
+  padding: 0.4em 1em 0.2em;
+  text-transform: uppercase;
+}
+
+.flash {
+  display: block;
+  padding: 1em;
+  background-color: #E0F1FA;
+  color: #233574;
+  text-align: center;
+}
