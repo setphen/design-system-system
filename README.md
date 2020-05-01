@@ -3,6 +3,8 @@
 This is a lightweight boilerplate static site for documenting design systems and
 component libraries.
 
+[Demo](https://setphen.github.io/design-system-system/)
+
 ## Starting local development
 
 1. Install [Hugo]
