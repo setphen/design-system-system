@@ -5,7 +5,7 @@ desc:
 variants:
   - name: Component variant
     src: component
-    classes: [component]
+    classes: [{{ replace .Name "-" " " }}]
     desc:
       A variant description.
 
