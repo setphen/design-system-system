@@ -25,7 +25,7 @@ Pages are written using markdown, and component previews are possible by
 including `.rendered` and `.markup` files within the page bundle, for example:
 
 ```
-content/components/button
+content/component/button
 ├── button.react.markup
 ├── button.html.markup
 ├── button.rendered
